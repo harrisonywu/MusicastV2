@@ -10,6 +10,10 @@ const redirectUri = "http://localhost:3000";
 const scopes = [
   "user-read-currently-playing",
   "user-read-playback-state",
+  'user-modify-playback-state',
+  'playlist-modify-public',
+  'user-top-read',
+  'user-read-recently-played'
 ];
 // Get the hash of the url
 const hash = window.location.hash
